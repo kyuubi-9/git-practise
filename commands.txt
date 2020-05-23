@@ -1,0 +1,32 @@
+Branching
+1.git branch
+2.git branch feature
+3.git checkout feature// to switch to new branch
+to merge them:
+git checkout master
+git merge feature//  now content of feature eill add up in master
+git commit and push will move this to repositiry in master
+but if we dinnit merge then
+git push// push feature without merging 
+get notification to run 
+git push --set-upstream origin feature
+now have two differen branches on same folder without merging
+
+
+other commands
+git clone <url> // if repo made on git hub directly
+this save this folder on pc
+go to folder exmple cd lecture 0
+
+touch hello.html
+code .
+git add <file name.html>
+git commit -m "msg"
+git status
+git log
+git push to save changeson git husb
+git pull// in case make chnages on git hub but want to check them on pc
+merge conflict
+when changes made online and pc at same time and then we pull , then we got merge conflict
+git reset --hard<commit hash code from git log>// switch to older version
+git reflog
