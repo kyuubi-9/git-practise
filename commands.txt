@@ -30,3 +30,13 @@ merge conflict
 when changes made online and pc at same time and then we pull , then we got merge conflict
 git reset --hard<commit hash code from git log>// switch to older version
 git reflog
+
+
+Remote:
+git fetch
+git merge origin master 
+git fetch + git merge origin master = git pull
+
+
+Forks// new version of od repositiry
+pull request//
